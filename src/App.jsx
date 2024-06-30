@@ -5,8 +5,7 @@ import Login from "./pages/Login.jsx";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner.jsx";
 
-// Make sure select one of the following layouts: default.jsx, navbar.jsx, sidebar.jsx depending on your project
-import SharedLayout from "./components/layouts/default.jsx";
+import SharedLayout from "./components/layouts/navbar.jsx";
 
 const queryClient = new QueryClient();
 
